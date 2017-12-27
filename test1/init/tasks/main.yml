@@ -1,0 +1,4 @@
+# main.yml
+
+  - name: test
+    shell: df > /tmp/aa.txt
