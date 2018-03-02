@@ -1,5 +1,8 @@
 # main.yml
 
+  - name: Pause d'une minute
+    pause: minutes=1
+   
   - shell: uptime  | awk '{print $3 $4}'
     register: result
 
